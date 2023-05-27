@@ -5,37 +5,10 @@ Version 0.0.8, January 2023
 A web interface to the Android audio player -- control your media
 playback using a browser.
 
-## Warning -- old, old code
-
-Please note that this app has been largely unchanged since 2015.
-I've made only the minimum necessary changes to keep it working 
-on the Android devices I own. The most recent device I've tested
-is the Samsung Galaxy s10. 
-
-The app has many problems. The genre support that I mentioned as being
-problematic back in 2015 remains a problem -- it's shockingly slow
-(minutes, with more than a hundred or so albums). This is a crude,
-unsatisfactory app, and I only continue to
-maintain it because I can't find anything else that does
-the same thing. If anybody knows of a superior alternative -- ideally
-open-source -- please tell me, so I can let this project quietly
-fade away.
-
-Please bear in mind that the latest Android version that this app can
-currently target is 4.4 (API level 19). While it does seem to work 
-on later devices, this API level is too early for the app to be accepted
-by any app store that I know of, even if I wanted to publish it that
-way. Although the app builds with the SDK for API level 31, it fails
-strangely on many devices.
-
-As I said, this is very old code, that really ought to be allowed to
-rest in peace. 
-
 ## What is this?
 
 Android Music Server provides a web browser interface to
-control playback of audio files stored on most modern (4.x-11.0) 
-Android devices. 
+control playback of audio files stored on most (2.x-11.0)  Android devices. 
 This allows the Android device
 to be used as a music server, in multi-room audio applications, among
 other things. I normally keep my Android phone docked, with a permanent
@@ -68,7 +41,6 @@ reason why more recent versions won't work.
 
 Android Music Server is open-source, free of charge, and has no advertisements.
 It's easy to build from source if you have the Android SDK available.
-
 
 ## Features
 - Simple web interface -- works on most desktop web browsers and many mobile browsers 
@@ -427,6 +399,7 @@ devices. Feel free to report others that work or don't work.
  - Google Nexus 7 first gen., with Android 5.1.0
  - Samsung Galaxy S3, with Android 4.4.2
  - Samsung Note 3, with Android 4.4.2
+ - Samsung GT-I8250, with Android 2.3.6
 
 ## Limitations
 
@@ -661,5 +634,5 @@ might not. If it doesn't, you're very welcome to fix it.
 
 ## Download
 
-[Download APK](apk/app-debug.apk) (on GitHub, click "View raw" to get the actual APK file)
+TBA
 
